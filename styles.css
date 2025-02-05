@@ -1,0 +1,139 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+@media (max-width: 600px){
+    .logo{
+        width: 50px;
+        height: 35px;
+    }
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      background-color: #f4f4f9;
+  }
+  .main-body{
+    background-image: url(https://i.postimg.cc/XvMKNZ4w/Background.png);
+    background-size: cover;
+  }
+  header {
+      background-color: darkred;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  header h1 {
+      margin: 0;
+  }
+  h2, h3{
+    text-align: center;
+  }
+  .logo{
+      width: 150px;
+      height: 135px;
+      position: absolute;
+      left: 0rem;
+      top: 0rem;
+      display: block;
+      border-radius: 40%;
+  }
+  .video-sec{
+    margin-top: 80px;
+  }
+  .main-text{
+    font-size: 1.75rem;
+  }
+  .text{
+    text-align: left;
+  }
+  .two{
+    text-align: left;
+  }
+  .text.two{
+    font-size: 1.5rem;
+  }
+  iframe{
+    margin-top: -30px;
+    padding: 80px;
+  }
+  .vid-caption{
+    text-align: center;
+  }
+  .main-vid-caption{
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  .vids-steps{
+    margin-top: 50px;
+    color: darkred;
+    font-weight: bold;
+  }
+  .vids-list{
+    text-align: left;
+    line-height: 1.75rem;
+  }
+  .container {
+      display: flex;
+  }
+  .menu {
+      width: 200px;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+  }
+  a, li{
+    text-align: left;
+  }
+  .vids-anchor{
+    text-decoration: none;
+  }
+  .vids-anchor:hover{
+    color: black;
+  }
+  .games, .worksheets{
+    margin-top: 200px;
+  }
+  .games-img, .worksheets-img{
+    margin-top: -250px;
+    margin-right: 80px;
+  }
+  .games-anchor, .worksheets-anchor{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    line-height: 2rem;
+  }
+  .games-anchor:hover{
+    color: black;
+  }
+  .menu a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #444;
+      border-radius: 5px;
+  }
+  .menu a:hover {
+      background-color: #555;
+  }
+  .content {
+      flex: 1;
+      padding: 20px;
+  }
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 4px;
+      width: 100%;
+  }
