@@ -23,6 +23,9 @@
     background-image: url(https://i.postimg.cc/XvMKNZ4w/Background.png);
     background-size: cover;
   }
+  iframe{
+    margin-right: 300px;
+  }
   header {
       background-color: darkred;
       color: white;
@@ -58,6 +61,12 @@
   }
   .text.two{
     font-size: 1.5rem;
+  }
+  .three{
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
   }
   iframe{
     margin-top: -30px;
@@ -137,3 +146,21 @@
       padding: 4px;
       width: 100%;
   }
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.feedback-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-form button:hover {
+    background-color: #45a049;
+}

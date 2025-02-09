@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Header -->
+        <header>
+            <img class="logo" src="https://i.postimg.cc/Z5RJjDm7/Capture.png" alt="School Logo">
+            <h1>التعليقات</h1>
+            <h3>Feedback</h3>
+        </header>
+        
+        <!-- Main Content Container -->
+        <div class="container">
+            
+            <!-- Left Menu -->
+            <div class="menu">
+                <a href="index.html">Home Page / الصفحة الرئيسية</a>
+                <a href="about.html">About / حول</a>
+                <a href="youtubeVideos.html">YouTube Videos / مقاطع الفيديو على يوتيوب</a>
+                <a href="games.html">Games / الألعاب</a>
+                <a href="worksheets.html">Worksheets / أوراق العمل</a>
+                <a href="feedback.html">Feedback / التعليقات</a>
+            </div>
+                <!-- Feedback Section -->
+                <section id="feedback">
+                    <p class="main-text three">We would love to hear your thoughts and suggestions!</p>
+                    <div class="feedback-form">
+                        <form action="submit_feedback.php" method="POST">
+                            <label for="name">Name / الاسم:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name / أدخل اسمك" required>
+    
+                            <label for="email">Email / البريد الإلكتروني:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email / أدخل بريدك الإلكتروني" required>
+    
+                            <label for="feedback">Feedback / التعليق:</label>
+                            <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback / أدخل تعليقك" required></textarea>
+    
+                            <button type="submit">Submit Feedback / إرسال التعليق</button>
+                        </form>
+                    </div>
+                </section>
+        </div>
+
+                <!-- Footer -->
+        <footer>
+            <p>©️ 2025 Learning Arabic for Children / تعليم الاطفال اللغة العربية</p>
+        </footer>
+</body>
+</html>
